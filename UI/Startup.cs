@@ -20,6 +20,7 @@ namespace UI
         public void Configure(IApplicationBuilder app)
         {
             app.UseMvc();
+            app.UseStaticFiles();
         }
 
         public void ConfigureServices(IServiceCollection services)

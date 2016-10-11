@@ -13,8 +13,6 @@ echo "Building React dependencies"
 npm install
 echo "Building JS and CSS bundles"
 webpack
-
 echo "Project build complete"
-echo "run 'dotnet run' in UI project to view in browser"
 
 echo "Project ready...run 'dotnet run' in UI project to launch"

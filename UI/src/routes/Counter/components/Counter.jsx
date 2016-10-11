@@ -3,8 +3,8 @@ import React, { PropTypes } from 'react';
 export const Counter = (props) => (
   <div style={{ margin: '0 auto' }}>
     <h2>Counter: { props.counter }</h2>
-    <button onClick={ props.increment }>Increment</button>
-    <button onClick={ props.doubleAsync }>Double (Async)</button>
+    <button className='btn btn-default' onClick={ props.increment }>Increment</button>
+    <button className='btn btn-default' onClick={ props.doubleAsync }>Double (Async)</button>
   </div>
 );
 

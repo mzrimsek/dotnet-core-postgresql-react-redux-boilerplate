@@ -9,6 +9,7 @@ cd ../UI
 dotnet restore
 echo "All dependencies built"
 
+cd ../UI.React
 echo "Building React dependencies"
 npm install
 echo "Building JS and CSS bundles"

@@ -32,3 +32,5 @@ Here you'll find posts I've made that walk through how this project has arrived 
 * [Improving project design with layering](https://medium.com/@mikezrimsek/using-layering-to-improve-your-projects-underlying-design-b3c596f8f349)
 * Adding NUnit tests (coming soon...)
 * [React-Redux - borrowed heavily from davezuko](https://github.com/davezuko/react-redux-starter-kit)
+
+Forked from [mzrimsek/dotnet-core-postgresql-boilerplate](https://github.com/mzrimsek/dotnet-core-postgresql-boilerplate)

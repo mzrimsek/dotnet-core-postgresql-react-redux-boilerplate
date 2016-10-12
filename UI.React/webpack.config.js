@@ -23,7 +23,7 @@ webpackConfig.entry = {
 
 webpackConfig.output = {
   filename   : `[name].js`,
-  path       : 'wwwroot',
+  path       : '../UI/wwwroot',
   publicPath : '/'
 };
 

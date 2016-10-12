@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using UI.Helpers;
@@ -21,6 +22,14 @@ namespace UI
         {
             app.UseMvc();
             app.UseStaticFiles();
+            app.UseMvc(routes => 
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller}/{action}/{id?}"
+                );
+            });
+            app.UseStatusCodePages();
         }
 
         public void ConfigureServices(IServiceCollection services)
